@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.row{
+  width: 1000px;
+  height: 400px
+}
+
+.immagine{
+  width: 33%;
+  height: 400px;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+}
+
+
+.sconto-verde{
+  background-color: green;
+  font-size: 20px;
+  position: absolute;
+  top: 0;
+  right: 15px;
+}
+
+.sconto-rosso{
+  background-color: red;
+  font-size: 22px;
+  position: absolute;
+  top: 0;
+  right: 15px;
+}
+
+.heart{
+  font-size: 30px;
+  position: absolute;
+  bottom: 40px;
+  right: 45%;
+  color: red;
+  display: none;
+}
+
+.immagine:hover .heart{
+  display: block;
+}
