@@ -1,0 +1,27 @@
+// color
+$primary-color: #EAAB35;
+$secondary-color: #77e6fe;
+$titles-color: #444D61 ;
+$p-color: #667287;
+$info-bckgrd: #e2dacb;
+$bckgrd-news: #e6e6e6;
+$subscribe-bckgrd: #272a39;
+$hover-nav-color: #a47627;
+$btn-nav-color: #f3cb79;
+
+
+
+// font
+$font: 'Roboto', sans-serif;
+$jumbo-title-size: 62px;
+$title-size: 26px;
+$mini-font: 10px;
+
+//var
+$img-slider: ".img-slider";
+
+@mixin border-line {
+    margin: 0 auto;
+    height: 1px;
+    background-color: $primary-color;
+}

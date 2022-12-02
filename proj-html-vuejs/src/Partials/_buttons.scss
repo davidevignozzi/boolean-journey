@@ -1,0 +1,52 @@
+@mixin nav-btn{
+    margin-left: 8px;
+    padding: 2px 5px;
+    background-color: $btn-nav-color;
+    border-radius: 3px;
+    color: #fff;
+    font-size: $mini-font;
+    border: none;
+}
+
+@mixin hdr-btn{
+    margin-left: 8px;
+    padding: 2px 5px;
+    background-color: $secondary-color;
+    border-radius: 3px;
+    color: #fff;
+    font-size: $mini-font;
+}
+
+@mixin primary-btn {
+    background: $primary-color;
+    margin-left: 8px;
+    padding: 20px 25px;
+    border: none;
+    font-size: 14px;
+    color: #fff;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+@mixin secondary-btn {
+    background: $secondary-color;
+    margin-left: 8px;
+    padding: 20px 25px;
+    border: none;
+    font-size: 14px;
+    color: #fff;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+@mixin main-btn {
+    width: 100%;
+    background-color: #fff;
+    margin: 0 0 5px 0;
+    padding: 10px;
+    a{
+        color: $primary-color;
+    }
+}

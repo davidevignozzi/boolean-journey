@@ -1,0 +1,48 @@
+#presentation{
+    margin: 50px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    //common
+    h2{
+        margin-top: 30px;
+    }
+    p{
+        color: $p-color;
+        margin: 30px 0;
+    }
+    //title
+    .presentation-title{
+        text-align: center;
+        width: 100%;
+        .border-line{
+            @include border-line;
+            width: 150px;
+        }
+    }
+    //main
+    .presentation-main{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+    .presentation-text{
+        margin-top: 30px;
+        .presentation-p{
+            display: flex;
+            .paragraph{
+                width: 50%;
+            }
+            .presentation-video{
+                width: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                iframe{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
