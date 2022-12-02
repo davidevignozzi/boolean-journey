@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 22;
+}
+
+
+#container,
+#container-second,
+#container-filtered{
+  padding: 15px;
+  margin: 15px;
+}
+
+i{
+  padding-top: 5px;
+}
+span{
+  padding: 5px;
+}
